@@ -28,6 +28,7 @@ public class CumulativeSum {
             arr[i] = i + 1;
         }
         int[] output = getCumulativeSum(arr);
+        System.out.println("====CumulativeSum====");
         for (int i = 0; i < output.length; i++) {
             System.out.println(output[i]);
         }
