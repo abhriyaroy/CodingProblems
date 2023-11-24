@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Hello world!");
         new CumulativeSum().main();
         new PositiveCumulativeSum().main();
+        new IdenticalTwins().main();
     }
 }
