@@ -6,5 +6,6 @@ public class Main {
         new CumulativeSum().main();
         new PositiveCumulativeSum().main();
         new IdenticalTwins().main();
+        new EvenNumberDigits().main();
     }
 }
