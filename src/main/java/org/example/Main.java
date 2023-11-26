@@ -7,5 +7,6 @@ public class Main {
         new PositiveCumulativeSum().main();
         new IdenticalTwins().main();
         new EvenNumberDigits().main();
+        new InsertionSort().main();
     }
 }
