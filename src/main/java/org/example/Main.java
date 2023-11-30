@@ -8,5 +8,6 @@ public class Main {
         new IdenticalTwins().main();
         new EvenNumberDigits().main();
         new InsertionSort().main();
+        new MergeTwoSortedArrays().main();
     }
 }
