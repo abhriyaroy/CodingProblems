@@ -65,23 +65,16 @@ public class MergeTwoSortedArrays {
         int pointerC = 0;
         while(pointerA < A.length && pointerB < B.length){
             if(A[pointerA] > B[pointerB]){
-                mergedArray[pointerC] = B[pointerB];
-                pointerB++;
+                mergedArray[pointerC++] = B[pointerB++];
             } else {
-                mergedArray[pointerC] = A[pointerA];
-                pointerA++;
+                mergedArray[pointerC++] = A[pointerA++];
             }
-            pointerC++;
         }
         while(pointerA < A.length){
-            mergedArray[pointerC] = A[pointerA];
-            pointerA++;
-            pointerC++;
+            mergedArray[pointerC++] = A[pointerA++];
         }
         while(pointerB < B.length){
-            mergedArray[pointerC] = B[pointerB];
-            pointerB++;
-            pointerC++;
+            mergedArray[pointerC++] = B[pointerB++];
         }
         return mergedArray;
     }
