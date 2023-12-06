@@ -9,6 +9,6 @@ public class Main {
         new EvenNumberDigits().main();
         new InsertionSort().main();
         new MergeTwoSortedArrays().main();
-        new MergeSortedSubArrays().main();
+        new MergeSort().main();
     }
 }
