@@ -10,5 +10,6 @@ public class Main {
         new InsertionSort().main();
         new MergeTwoSortedArrays().main();
         new MergeSort().main();
+        new MaxConsecutiveOnes().main();
     }
 }
