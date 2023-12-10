@@ -11,5 +11,6 @@ public class Main {
         new MergeTwoSortedArrays().main();
         new MergeSort().main();
         new MaxConsecutiveOnes().main();
+        new ArithmeticSequence().main();
     }
 }
