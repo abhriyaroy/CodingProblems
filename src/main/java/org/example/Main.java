@@ -12,5 +12,6 @@ public class Main {
         new MergeSort().main();
         new MaxConsecutiveOnes().main();
         new ArithmeticSequence().main();
+        new LargestContiguous().main();
     }
 }
