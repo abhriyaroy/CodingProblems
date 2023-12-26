@@ -25,6 +25,7 @@ public class Main {
         new LargestContiguous().main();
         new PascalsTriangle().main();
         new RemoveOccurrences().main();
+        new TwoSumZero().main();
 //        try {
 //            removeDuplicateLinesFromXml("/Users/abhriya.roy/IdeaProjects/CodingProblems/src/main/java/org/example/input.xml",
 //                    "/Users/abhriya.roy/IdeaProjects/CodingProblems/src/main/java/org/example/input2.xml");
